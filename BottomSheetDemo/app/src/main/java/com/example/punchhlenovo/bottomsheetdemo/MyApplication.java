@@ -6,7 +6,7 @@ import org.acra.ACRA;
 import org.acra.ReportingInteractionMode;
 import org.acra.annotation.ReportsCrashes;
 
-@ReportsCrashes(mailTo = "nirmalaarti10@gmail.com", // my email here
+@ReportsCrashes(mailTo = "your mail id", // my email here
         mode = ReportingInteractionMode.TOAST,
         resToastText = R.string.crash_toast_text, formKey = "")
 
