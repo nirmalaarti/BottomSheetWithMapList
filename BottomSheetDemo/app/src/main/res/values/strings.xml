@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BottomSheetDemo</string>
+    <string name="button1">Button 1</string>
+    <string name="button2">Button 2</string>
+    <string name="button3">Button 3</string>
+    <string name="sheet_p1">Hello</string>
+    <string name="long_latin">Word</string>
+    <string name="sheet_p2">sheet 2</string>
+    <string name="crash_toast_text">Crash!!!!</string>
+</resources>
