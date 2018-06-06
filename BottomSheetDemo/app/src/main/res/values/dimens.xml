@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottomsheet_peek_height_dp">300dp</dimen>
+    <dimen name="bottomsheet_peek_height_px">660px</dimen>
+</resources>

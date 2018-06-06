@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment_google_map_view"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/view_map_button_current_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/fragment_google_map_view"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dip"
+        android:layout_marginRight="6dip"
+        android:background="@drawable/mapfocus"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:onClick="moveToCurrentLocation"
+        android:visibility="gone" />
+
+</RelativeLayout>
